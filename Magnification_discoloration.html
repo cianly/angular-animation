@@ -1,0 +1,18 @@
+<!doctype html>
+<html ng-app>
+  <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/mag.css">
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-animate.min.js"></script>
+  </head>
+  <body>
+	<p>
+	  <input type="button" value="设置" ng-click="myCssVar='css-class'">
+	  <input type="button" value="清除" ng-click="myCssVar=''">
+	  <br>
+	  <span ng-class="myCssVar">进行放大变色</span>
+	</p>
+  </body>
+</html>
+
